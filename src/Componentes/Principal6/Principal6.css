@@ -1,0 +1,21 @@
+.content-p6{
+    background-color: rgb(27, 27, 56);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-p6 img{
+    padding-right: 30px;
+    transition: 500ms;
+}
+
+.content-p6 img:hover{
+    opacity: 0.7;
+}
+
+.content img:last-child {
+    padding-right: 0;
+}
+

@@ -12,8 +12,10 @@ import Principal4 from './Componentes/Principal4/Principal4';
 import './Componentes/Principal4/Principal4.css'
 import Principal5 from './Componentes/Principal5/Principal5';
 import './Componentes/Principal5/Principal5.css'
-
-
+import Principal6 from './Componentes/Principal6/Principal6';
+import './Componentes/Principal6/Principal6.css'
+import Principal7 from './Componentes/Principal7/Principal';
+import './Componentes/Principal7/Principal7.css'
 
 function App() {
   return (
@@ -24,7 +26,8 @@ function App() {
       <Principal3/>
       <Principal4/>
       <Principal5/>
-      
+      <Principal6/>
+      <Principal7/>
     </div>
   );
 }

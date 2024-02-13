@@ -1,0 +1,24 @@
+.content-p7{
+    height: 100px;
+    background-color: rgb(5, 5, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.h1-p7{
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.p7{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+}
