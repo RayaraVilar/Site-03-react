@@ -1,0 +1,119 @@
+.Main2 {
+    margin: 100px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    
+}
+
+.content {
+    background-color: white;
+    padding: 50px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.componentes-content{
+    display: flex;
+    margin-left: 20px;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-texto{
+    text-align: left;
+    padding-right: 40px;
+    margin-left: 40px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1.2rem;
+}
+.img-1{
+    background-image: url(/public/imagens/1.png);
+    transition: transform 0.3s ease-in-out;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+
+}
+
+.img-1:hover{
+    transform: translateY(-10px);
+}
+
+.img-2{
+    background-image: url(/public/imagens/4.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.img-2:hover{
+    transform: translateY(-10px);
+}
+
+.img-3{
+    background-image: url(/public/imagens/2.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.img-3:hover{
+    transform: translateY(-10px);
+}
+
+.img-4{
+    background-image: url(/public/imagens/5.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.img-4:hover{
+    transform: translateY(-10px);
+}
+
+.img-5{
+    background-image: url(/public/imagens/3.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.img-5:hover{
+    transform: translateY(-10px);
+}
+
+.img-6{
+    background-image: url(/public/imagens/6.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.img-6:hover{
+    transform: translateY(-10px);
+}

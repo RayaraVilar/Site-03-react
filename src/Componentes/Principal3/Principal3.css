@@ -1,0 +1,50 @@
+.chamada{
+background-image: url(/public/imagens/chamada.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+width: 100%;
+padding: 150px 0px;
+margin-bottom: 100px;
+}
+
+.botaoum, .botaodois{
+    margin-left: 10vw;
+    background-color: rgb(96, 180, 138);
+    border: none;
+    padding: 30px 65px;
+    border-radius: 6px;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+.botaoum a, .botaodois a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botaodois{
+    background-color: rgb(255, 115, 0);
+    margin-left: 1vw;
+
+}
+
+.itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 0 15vw;
+}
+
+.textop3 p {
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.verde{
+    color: rgb(96, 180, 138);
+}

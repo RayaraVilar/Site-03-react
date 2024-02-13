@@ -1,0 +1,30 @@
+.prin-5-texto{
+    margin-top: 80px;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+.prin-5-texto p{
+    font-size: 1.5rem;
+}
+
+
+.prin-5-texto h1{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}

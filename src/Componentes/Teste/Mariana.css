@@ -1,0 +1,45 @@
+.cabecalho {
+  display: flex;
+  background-color: rgb(34, 33, 51);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+} 
+
+
+  .logo img{
+    margin-left: 10vw;
+    width: 12vw;
+  }
+  
+  .navegacao ul {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    margin-right: 10vw;
+  }
+  
+  .navegacao li {
+    padding-right: 3vw;
+  }
+  
+  .navegacao a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .navegacao a:hover{
+    color: rgb(255, 115, 0);
+    transition: 500ms;
+  }
+  
+  .navegacao ul li:last-child {
+    padding: 10px 20px;
+    background-color: rgb(96, 180, 138);
+    border-radius: 10px;
+  }
+  
