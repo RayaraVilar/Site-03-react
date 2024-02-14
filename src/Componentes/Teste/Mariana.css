@@ -6,8 +6,7 @@
   align-items: center;
   position: fixed; 
   top: 0; 
-  width: 100%; 
-  z-index: 1000; 
+  width: 100vw; 
 } 
 
 
@@ -18,7 +17,7 @@
   
   .navegacao ul {
     display: flex;
-    height: 80px;
+    height: 12vh;
     align-items: center;
     margin-right: 10vw;
   }
@@ -44,4 +43,26 @@
   }
   
 
-  
+  @media only screen and (max-width: 600px) {
+    .logo img{
+
+      width: 30vw;
+    }
+
+    .navegacao ul {
+      margin-right: 20vw;
+    }
+
+    .navegacao ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .cabecalho {
+      width: 100vw;
+    } 
+
+    .cabecalho {
+      width: 1324.19px;
+    } 
+  }

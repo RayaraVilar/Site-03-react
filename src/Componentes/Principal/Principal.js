@@ -3,8 +3,8 @@ import React, { useEffect } from 'react';
 function Principal () {
     return(
         <div className="Main">
-            <div className="box">
-            </div>
+          <div className="box">
+            
             <div className="text">
                 <p className='p1'>
                     Get <span>ready</span> for your business & upgrade <span>all aspects</span>
@@ -24,6 +24,7 @@ function Principal () {
                     <a href="#">Contact us</a>
                 </button>
             </div>
+          </div>
         </div>
         )
 }

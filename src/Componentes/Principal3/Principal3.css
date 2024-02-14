@@ -48,3 +48,10 @@ margin-bottom: 100px;
 .verde{
     color: rgb(96, 180, 138);
 }
+
+@media only screen and (max-width: 600px) {
+    .chamada{
+       width: 1200px;
+        }
+        
+}
